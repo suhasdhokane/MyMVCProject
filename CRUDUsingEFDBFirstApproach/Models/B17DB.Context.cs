@@ -26,5 +26,6 @@ namespace CRUDUsingEFDBFirstApproach.Models
         }
     
         public virtual DbSet<Trainer> Trainers { get; set; }
+        public virtual DbSet<Student> Students { get; set; }
     }
 }

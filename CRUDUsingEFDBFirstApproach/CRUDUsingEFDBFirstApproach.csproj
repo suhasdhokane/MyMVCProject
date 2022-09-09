@@ -148,6 +148,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>B17DB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Student.cs">
+      <DependentUpon>B17DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Trainer.cs">
       <DependentUpon>B17DB.tt</DependentUpon>
     </Compile>
